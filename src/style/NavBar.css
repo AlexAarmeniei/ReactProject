@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #1f5156;
+  background-color: #0b3841;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -22,11 +22,14 @@
 .nav-logo {
   color: #f5b921;
   align-items: center;
-  margin-left: 20px;
+  margin-left: 3rem;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
   flex-grow: 1;
+}
+.nav-logo-second {
+  color: rgb(224, 120, 51);
 }
 
 .nav-menu {
@@ -55,7 +58,7 @@
 .nav-item:after {
   content: "";
   display: block;
-  height: 3px;
+  height: 0.2rem;
   width: 0;
   background: transparent;
   transition: width 0.7s ease, background-color 0.5s ease;
@@ -67,8 +70,7 @@
 }
 
 .nav-item .active {
-  color: #ffdd40;
-  border: 1px solid #ffdd40;
+  color: rgb(224, 120, 51);
 }
 
 .nav-icon {
